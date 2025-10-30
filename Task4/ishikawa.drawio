@@ -1,0 +1,86 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.4 Chrome/138.0.7204.97 Electron/37.2.1 Safari/537.36" version="28.0.4">
+  <diagram id="fishbone" name="Диаграмма Исикавы">
+    <mxGraphModel dx="2066" dy="2101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="spine" value="Снижение работоспособности при миграции" style="endArrow=classic;html=1;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry x="100" y="450" width="1200" relative="1" as="geometry">
+            <mxPoint x="140" y="450" as="sourcePoint" />
+            <mxPoint x="1400" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c1" value="Инфраструктура" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="420" y="260" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b1" style="endArrow=none;html=1;" parent="1" source="c1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c1_1" value="Недостаток ресурсов" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_2" value="Неправильная сегментация" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="205" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="Программное обеспечение" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="700" y="260" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" style="endArrow=none;html=1;" parent="1" source="c2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2_1" value="Нагрузочное тестирование отсутствует" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="160" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_2" value="Регресс не покрыт" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="205" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="Интеграции" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="980" y="260" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3" style="endArrow=none;html=1;" parent="1" source="c3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3_1" value="Контракты не формализованы" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="150" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_2" value="Слабая изоляция сред" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="960" y="205" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="Персонал" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="700" y="600" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b4" style="endArrow=none;html=1;" parent="1" source="c4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c4_1" value="Недостаток компетенций" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="650" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_2" value="Нет обучающих материалов" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="695" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="Процессы" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="420" y="600" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b5" style="endArrow=none;html=1;" parent="1" source="c5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5_1" value="План миграции отсутствует" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="650" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5_2" value="Нет критериев готовности" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="695" width="220" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
