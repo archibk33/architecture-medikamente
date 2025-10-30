@@ -1,0 +1,46 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.4 Chrome/138.0.7204.97 Electron/37.2.1 Safari/537.36" version="28.0.4">
+  <diagram id="d4" name="Учет ТМЦ и закупки">
+    <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wh" value="Склад" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sup" value="Поставщик" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iproc" value="Учет ТМЦ" style="shape=process;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="230" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="trade" value="1С Торговля и склад" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="160" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="exw" value="Excel склад" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="300" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ie1" value="Данные ТМЦ" style="endArrow=classic;html=1;" parent="1" source="wh" target="iproc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ie2" value="Поставка" style="endArrow=classic;html=1;" parent="1" source="sup" target="iproc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ie3" value="Запись в учет" style="endArrow=classic;html=1;" parent="1" source="iproc" target="trade" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ie4" value="Таблица" style="endArrow=classic;html=1;" parent="1" source="iproc" target="exw" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tag4" value="Тег склад данные низкий" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="700" y="325" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl8" value="Целостность контроль версий" style="shape=note;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="700" y="170" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl9" value="Резервное копирование" style="shape=note;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="480" y="420" width="200" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
